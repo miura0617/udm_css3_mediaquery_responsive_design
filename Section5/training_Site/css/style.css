@@ -20,6 +20,13 @@
    全デバイス共通とスマホ向け
 /_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/ */
 
+body {
+    width: 100%;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
 /* --------------------------------------------------
 コンテナー 
 ---------------------------------------------------*/
@@ -27,52 +34,177 @@
 /* --------------------------------------------------
 ヘッダー 
 ---------------------------------------------------*/
+header {
+    text-align: center;
+}
+
+header h1 {
+    width: 90%;
+    margin: 0 auto;
+    height: 46px;
+    background-color: #fcf;
+}
+
+header ul#s_nav {
+    position: relative;
+    left:50%;
+    float: left;
+    margin-bottom: 10px;
+    height: 10px;
+    background-color: #ccc;
+}
+
+header img {
+    width: 100%;
+    max-width: 960px;
+}
 
 
 /* --------------------------------------------------
 グローバルナビ 
 ---------------------------------------------------*/
+nav#globalnav ul {
+    width: 100%;
+    max-width: 960px;
+    height: 50px;
+    background-color: #fcf;
+    margin-bottom: 10px;
+}
 
 
 /* --------------------------------------------------
 コンテンツ 
 ---------------------------------------------------*/
-
+div#contents {
+    margin-top: 30px;
+}
 
 /* --------------------------------------------------
 main
 ---------------------------------------------------*/
+div#contents main#main {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 5px;
 
+}
 
 /* --------------------------------------------------
 article
 ---------------------------------------------------*/
-
-
+div#contents main#main article {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+div#contents main#main article h2 {
+    font-size: 1.8em;
+    margin: 0 5px 15px 0;
+    padding-bottom: 10px;
+}
+div#contents main#main article > img {
+    display: block;
+    width: 95%;
+    padding: 2px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    margin: 0 auto 20px auto;
+}
+div#contents main#main article p {
+    width: 95%;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    background-color: #fcf;
+}
 /* --------------------------------------------------
 aside
 ---------------------------------------------------*/
-
+div#contents aside {
+    width: 300px;
+    margin: 20px auto 60px auto;
+}
 
 /* --------------------------------------------------
 information
 ---------------------------------------------------*/
+div#contents aside section#information {
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+div#contents aside section#information ul#sns {
+    text-align: center;
+    margin: 10px 5px 0 5px;
+    background-color: #fcf;
+}
 
+div#contents aside section#information ul#sns li {
+    display: inline;
+    margin: 0 5px;
+    width: 50px;
+    height: 100px;
+    background-color: #f3f;
+}
+div#contents aside section#information ul#guide {
+    margin: 10px 5px 0 5px;
+    background-color: #fcf;
+}
+div#contents aside section#information ul#guide li {
+    height: 65px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-top: 1px solid #000;
+}
 
 /* --------------------------------------------------
 topic
 ---------------------------------------------------*/
+div#contents aside section#topics {
+    background-color: #fcf;
+}
+div#contents aside section#topics h3 {
+    margin: 30px 0 20px 0;
+    font-size: 1.5em;
+}
+div#contents aside section#topics ul#diary li {
+    margin: 0 0 15px 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+    background-color: #f3f;
+}
 
 
 /* --------------------------------------------------
 news
 ---------------------------------------------------*/
+div#contents section.news {
+    width: 93%;
+    margin: 0 auto;
 
+}
+
+div#contents section.news h2 {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #000;
+}
+
+div#contents section.news article h3 {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+div#contents section.news article p {
+    height: 100px;
+    margin-bottom: 40px;
+    background-color: #fcf;
+}
 
 /* --------------------------------------------------
 footer
 ---------------------------------------------------*/
-
+footer {
+    text-align: center;
+    border-top: 10px solid #000;
+}
 
 
 /* /_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_
